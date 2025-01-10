@@ -1,4 +1,4 @@
-#**A Repo containing basic frontend projects**
+# **A Repo containing basic frontend projects**
 
 ## 1. **Bill Splitter 💰**
 
