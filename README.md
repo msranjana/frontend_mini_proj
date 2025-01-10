@@ -1,3 +1,5 @@
+#**A Repo containing basic frontend projects**
+
 ## 1. **Bill Splitter 💰**
 
 ### **What It Is:**
