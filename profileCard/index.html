@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Profile Card</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top-strip"></div>
+    <div class="container">
+      <div class="profile-card">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="icons-container">
+          <i class="fas fa-heart like-icon"></i>
+          <i class="fas fa-share-alt share-icon" onclick="navigator.share({ url: location.href })"></i>
+        </div>
+        <div class="profile-content">
+          <div class="avatar-container">
+            <!-- Dynamic Avatar from an online source -->
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo6wCUSmJEK9kC5KVqmQczHMH3OMcc_9BTTQ&s"
+              alt="avatar"
+            />
+            <div class="green-dot"></div>
+          </div>
+          <h3 class="card-heading">Ranjana M Suvarna</h3>
+          <p class="card-subtitle">Frontend Developer</p>
+          <div class="social-media-icons">
+            <a
+              href="https://github.com/msranjana"
+              target="_blank"
+              class="social-media-icon"
+              title="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ranjanams/"
+              target="_blank"
+              class="social-media-icon"
+              title="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://codepen.io/Ranjana-S"
+              target="_blank"
+              class="social-media-icon"
+              title="CodePen"
+            >
+              <i class="fab fa-codepen"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/ranjanaaa_04/"
+              target="_blank"
+              class="social-media-icon"
+              title="Instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://discord.com/users/alsome08"
+              target="_blank"
+              class="social-media-icon"
+              title="Discord"
+            >
+              <i class="fab fa-discord"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+        Made by <a href ="https://github.com/msranjana">msranjana</a> with <span>&lt;3</span>
+      </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

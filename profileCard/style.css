@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #fcf0ff;
+    font-family: 'Nunito', sans-serif;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .container {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 16px;
+  }
+  
+  .top-strip {
+    background-color: #9d40e4;
+    height: 36px;
+  }
+  
+  .profile-card {
+    width: 100%;
+    max-width: 335px;
+    background: linear-gradient(135deg, #9d40e4, #6b00d6);
+    border-radius: 30px;
+    padding: 32px 22px 24px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+    animation: slideIn 1.2s ease-out;
+  }
+  
+  .icons-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    color: white;
+    font-size: 1.4rem;
+    z-index: 2;
+  }
+  
+  .icons-container .like-icon {
+    color: #ff6b6b;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .icons-container .like-icon:hover {
+    transform: scale(1.3);
+    color: #ff3d3d;
+  }
+  
+  .icons-container .share-icon {
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .icons-container .share-icon:hover {
+    transform: scale(1.3);
+    color: #ffe900;
+  }
+  
+  .profile-content {
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .avatar-container {
+    display: inline-block;
+    margin-top: -60px;
+    border: 8px solid white;
+    border-radius: 100%;
+    position: relative;
+    background: #ddd;
+    overflow: hidden;
+    transform: scale(1);
+    animation: pulse 3s infinite;
+  }
+  
+  .avatar-container img {
+    width: 100%;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .avatar-container:hover img {
+    transform: scale(1.1);
+  }
+  
+  .green-dot {
+    width: 14px;
+    height: 14px;
+    background-color: #87e57b;
+    border-radius: 100%;
+    box-sizing: content-box;
+    border: 4px solid white;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+  }
+  
+  .card-heading {
+    margin-top: 14px;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .card-subtitle {
+    margin-top: 6px;
+    color: #a6a6a6;
+    font-weight: 500;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 10px;
+    border-top: 2px solid #f5f5f5;
+  }
+  
+  .social-media-icon {
+    font-size: 1.5rem;
+    color: #9d40e4;
+    transition: color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .social-media-icon:hover {
+    color: #feb02f;
+    transform: scale(1.2);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .circle {
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.5;
+    filter: blur(8px);
+    animation: float 6s infinite ease-in-out;
+  }
+  
+  .circle-1 {
+    right: 36px;
+    top: 8px;
+    width: 160px;
+    height: 160px;
+    background: linear-gradient(135deg, #9c45de 0%, #a453e2 100%);
+  }
+  
+  .circle-2 {
+    width: 90px;
+    height: 90px;
+    left: 8px;
+    top: 90px;
+    background: linear-gradient(135deg, #a453e2 0%, #d679ff 100%);
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #fcf0ff;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  footer a {
+    color: #9d40e4;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+
