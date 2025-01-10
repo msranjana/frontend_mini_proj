@@ -35,10 +35,10 @@ optionImages.forEach((image, index) => {
       let randomNumber = Math.floor(Math.random() * 3);
       // Create an array of CPU image options
       let cpuImages = ["images/rock.png", "images/paper.png", "images/scissors.png"];
-      // Set the CPU image to a random option from the array
+      // Set the Computer image to a random option from the array
       cpuResult.src = cpuImages[randomNumber];
 
-      // Assign a letter value to the CPU option (R for rock, P for paper, S for scissors)
+      // Assign a letter value to the computer option (R for rock, P for paper, S for scissors)
       let cpuValue = ["R", "P", "S"][randomNumber];
       // Assign a letter value to the clicked option (based on index)
       let userValue = ["R", "P", "S"][index];
@@ -46,13 +46,13 @@ optionImages.forEach((image, index) => {
       // Create an object with all possible outcomes
       let outcomes = {
         RR: "Draw",
-        RP: "Cpu",
+        RP: "Computer",
         RS: "User",
         PP: "Draw",
         PR: "User",
-        PS: "Cpu",
+        PS: "Computer",
         SS: "Draw",
-        SR: "Cpu",
+        SR: "Computer",
         SP: "User",
       };
 
