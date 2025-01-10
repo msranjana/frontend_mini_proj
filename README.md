@@ -134,7 +134,7 @@ A sleek, interactive app that evaluates the strength of user-entered passwords. 
 ### **What It Is:**
 An interactive and visually appealing profile card designed to showcase user information, social media links, and dynamic elements like avatars and animations.
 
-![Dynamic Profile Card](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/example-image-placeholder.png)
+![Dynamic Profile Card](https://github.com/msranjana/frontend_mini_proj/blob/main/profileCard/card.png)
 
 ### **Why You Should Try It:**
 - Enhance your understanding of **CSS animations** and **dynamic layouts**.
