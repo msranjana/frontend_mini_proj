@@ -178,8 +178,7 @@ A simple yet elegant mini personal portfolio website showcasing educational back
 ### **Features:**
 - **Hero Section:** Introduces the user with a brief description and a link to their academic institution.
 - **Mini Projects Showcase:** Lists several completed projects to demonstrate technical skills.
-- **Work Experience Section:**
-  - Highlights participation in technical communities like **Sahyadri Open Source Community (SOSC)** and **FOSS Mangalore**.
+- **Experience Section:**
   - Provides brief descriptions of roles and contributions.
 - **Education Section:** Displays academic qualifications with institution details and timeline.
 - **Theme Toggle:** 
