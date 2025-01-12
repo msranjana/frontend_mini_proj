@@ -163,7 +163,7 @@ An interactive and visually appealing profile card designed to showcase user inf
 
 ---
 
-## 7. ** Mini Personal Portfolio🌟**
+## 7. **Mini Personal Portfolio🌟**
 
 ### **What It Is:**
 A simple yet elegant mini personal portfolio website showcasing educational background, work experience, and mini projects. It is designed to highlight your skills and provide quick access to your achievements and activities.
